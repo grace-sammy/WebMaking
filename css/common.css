@@ -1,0 +1,173 @@
+/* 마진 패딩 초기화 */
+//* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body {
+  font-family: "돋움";
+  font-size: 14px;
+}
+
+img {
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* <a> 태그 기본 설정 */
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #222222;
+}
+
+a:active {
+  text-decoration: none;
+  color: #222222;
+}
+
+#top a {
+  font-size: 15px;
+  color: black;
+}
+
+/* 상단 헤더 */
+#top {
+  position: relative;
+  width: 1600px;
+  height: 80px;
+}
+
+#top h3 {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  font-size: 30px;
+}
+
+#top #top_menu {
+  float: right;
+  margin-top: 165px;
+  font-size: 15px;
+}
+
+#top #top_menu li {
+  display: inline;
+}
+
+#menu_bar {
+  margin-top: 120px;
+  height: 48px;
+  width: 100%;
+  background-color: black;
+  font-size: 16px;
+}
+
+#menu_bar ul {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 14px 0 0 40px;
+}
+
+#menu_bar li {
+  display: inline;
+  margin-left: 90px;
+  color: white;
+}
+
+#menu_bar a {
+  font-weight: bold;
+}
+
+#menu_bar a:link {
+  color: white;
+}
+
+#menu_bar a:hover {
+  color: white;
+}
+
+#menu_bar a:visited {
+  color: white;
+}
+
+#menu_bar a:active {
+  color: white;
+}
+
+/* 메인 이미지 */
+#main_img_bar {
+  height: 500px;
+  background-color: white;
+}
+
+#main_img_bar img {
+  margin-top: 5px;
+  width: 100%;
+  height: 100%;
+}
+
+/* 하단 푸터 */
+
+#footer {
+    background: #24211c;
+    padding: 50px 0;
+    clear: both;
+}
+
+.footer_wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.footer_social {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.footer_icon {
+    position: absolute;
+    right: 0;
+    top: 70px;
+    text-align: right;
+}
+.footer_menu li {
+    float: left;
+    color: #FFF;
+    margin-right: 15px;
+    font-size: 13px;
+}
+.footer_menu li a {
+    color: #FFF;
+}
+
+.footer_wrap h5 {
+    clear: both;
+    padding-top: 50px;
+    color: #BBB;
+    line-height: 22px;
+    font-weight: normal;
+    font-size: 12px;
+    display: block;
+}
+.footer_menu{
+  padding-left: 0;
+}
